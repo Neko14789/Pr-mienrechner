@@ -1,0 +1,45 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Edit3: TEdit;
+    procedure Button1Click(Sender: TObject);
+  
+  private
+    { Private-Deklarationen }
+  public
+    { Public-Deklarationen }
+  end;
+
+var
+  Form1: TForm1; zahl1,zahl2,ergebnis:real;
+
+implementation
+
+{$R *.dfm}
+
+
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+ zahl1:=Strtofloat(Edit1.Text);
+ zahl2:=Strtofloat(Edit2.Text)
+
+ ergebnis:=zahl1+zahl2;
+
+ Edit3.Text:=FloatTostr(ergebnis);
+end;
+
+end.
