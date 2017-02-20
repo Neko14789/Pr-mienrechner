@@ -1,24 +1,24 @@
 object Form1: TForm1
-  Left = 1346
-  Height = 238
-  Top = 53
-  Width = 490
+  Left = 1252
+  Height = 213
+  Top = 201
+  Width = 495
   Align = alClient
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'Prämienrechner'
-  ClientHeight = 238
-  ClientWidth = 490
+  ClientHeight = 213
+  ClientWidth = 495
   Color = clBtnFace
   Font.Color = clWindowText
   Font.Height = -13
   Font.Name = 'MS Sans Serif'
   Position = poDesktopCenter
-  LCLVersion = '1.4.5.0'
+  LCLVersion = '1.6.2.0'
   object Button1: TButton
     Left = 57
     Height = 25
-    Top = 144
+    Top = 129
     Width = 159
     Caption = 'Prämie berechnen'
     OnClick = Button1Click
@@ -27,7 +27,7 @@ object Form1: TForm1
   object Button2: TButton
     Left = 57
     Height = 25
-    Top = 177
+    Top = 162
     Width = 75
     Caption = 'Lösche'
     OnClick = Button2Click
@@ -36,7 +36,7 @@ object Form1: TForm1
   object Button3: TButton
     Left = 141
     Height = 25
-    Top = 177
+    Top = 162
     Width = 75
     Caption = 'Exit'
     OnClick = Button3Click
@@ -44,11 +44,11 @@ object Form1: TForm1
   end
   object GroupBox1: TGroupBox
     Left = 56
-    Height = 75
+    Height = 67
     Top = 32
     Width = 160
     Caption = 'Betriebszugehörigkeit'
-    ClientHeight = 54
+    ClientHeight = 46
     ClientWidth = 156
     Font.Color = clWindowText
     Font.Height = -13
@@ -60,18 +60,18 @@ object Form1: TForm1
       Left = 14
       Height = 24
       Top = 8
-      Width = 80
+      Width = 128
       OnKeyPress = Edit1KeyPress
       TabOrder = 0
     end
   end
   object GroupBox2: TGroupBox
     Left = 280
-    Height = 75
+    Height = 67
     Top = 32
     Width = 160
     Caption = 'Lebensalter'
-    ClientHeight = 54
+    ClientHeight = 46
     ClientWidth = 156
     Font.Color = clWindowText
     Font.Height = -13
@@ -82,7 +82,7 @@ object Form1: TForm1
     object RadioButton1: TRadioButton
       Left = 14
       Height = 20
-      Top = 8
+      Top = 0
       Width = 117
       Caption = 'unter 50 Jahre'
       Checked = True
@@ -92,7 +92,7 @@ object Form1: TForm1
     object RadioButton2: TRadioButton
       Left = 14
       Height = 20
-      Top = 32
+      Top = 24
       Width = 100
       Caption = '50 und älter'
       TabOrder = 0
@@ -100,11 +100,11 @@ object Form1: TForm1
   end
   object GroupBox3: TGroupBox
     Left = 280
-    Height = 75
-    Top = 135
+    Height = 67
+    Top = 120
     Width = 160
     Caption = 'Prämie beträgt'
-    ClientHeight = 54
+    ClientHeight = 46
     ClientWidth = 156
     Font.Color = clWindowText
     Font.Height = -13
@@ -116,7 +116,7 @@ object Form1: TForm1
       Left = 14
       Height = 24
       Top = 8
-      Width = 80
+      Width = 128
       ReadOnly = True
       TabOrder = 0
     end

@@ -1,4 +1,4 @@
-program Project1;
+program project1;
 
 {$IFDEF FPC}
   {$MODE Delphi}
@@ -16,6 +16,7 @@ uses
 
 begin
   Application.Initialize;
+  Application.Title := 'Prämienrechner';
   Application.CreateForm(TForm1, Form1);
   Application.Run;
 end.

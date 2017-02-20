@@ -53,7 +53,7 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  If edit1.Text=#0 then
+  If edit1.Text='' then
      begin
        ShowMessage('Bitte die Anzahl der Jahre mit Betriebszugehörigkeit angeben');
        Exit;

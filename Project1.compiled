@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Compiler Value="G:\PortableApps\LazarusPortable\App\lazarus\fpc\2.6.5\bin\i386-win32\fpc.exe" Date="1231460027"/>
+  <Compiler Value="G:\PortableApps\LazarusPortable\App\lazarus\fpc\2.6.5\bin\i386-Win32\fpc.exe" Date="1231460027"/>
   <Params Value=" -MDelphi -Scghi -O1 -g -gl -WG -l -vewnhibq -FuC:\Users\Nico\Desktop -FuG:\PortableApps\LazarusPortable\App\lazarus\lcl\units\i386-win32\win32 -FuG:\PortableApps\LazarusPortable\App\lazarus\lcl\units\i386-win32 -FuG:\PortableApps\LazarusPortable\App\lazarus\components\lazutils\lib\i386-win32 -FuG:\PortableApps\LazarusPortable\App\lazarus\packager\units\i386-win32 &quot;-FuG:\Documents\Delphi\Prämienrechner 10.02.17\&quot; -dLCL -dLCLwin32 -dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL Project1.dpr"/>
 </CONFIG>

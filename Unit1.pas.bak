@@ -53,9 +53,9 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  If edit1.Text=#0 then
+  If edit1.Text='' then
      begin
-       ShowMessage('Bitte die Anzahl der Jahre mit Betriebszugehörigkeit angeben');
+       Application.ShowMessage('Bitte die Anzahl der Jahre mit Betriebszugehörigkeit angeben');
        Exit;
      end;
   bz:=strtofloat(edit1.text);
@@ -98,5 +98,4 @@ begin
         Key:=#0;                                                                //Verbietet Eingabe des beliebigen Symbols (da es nicht erlaubt ist)
   End;
 end;
-
 end.
